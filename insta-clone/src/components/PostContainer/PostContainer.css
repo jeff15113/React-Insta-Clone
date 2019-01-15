@@ -1,0 +1,17 @@
+.postHeader {
+    border: 1px solid lightgray;
+    display: flex;
+    height: 50px;
+    padding: 15px;
+    align-items: center; 
+}
+
+.postHeader img{
+    width: 10%;
+    height: 40px;
+    border-radius: 50px
+}
+
+.postHeader h4{
+    padding-left: 10px;
+}
