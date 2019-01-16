@@ -2,8 +2,8 @@ import React from 'react';
 
 const Comment = (props) => {
     return (
-        <div>
-            {console.log(props)}
+        <div className='comments'>
+
             <span style={{ fontWeight: 600 }}>{props.comment.username} </span>
             <span>{props.comment.text}</span>
         </div>

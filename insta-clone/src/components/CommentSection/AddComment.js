@@ -1,9 +1,12 @@
 import React from 'react'
+
 const AddComment = (props) => {
     return (
-        <div>
+        <div className='addcomment'>
             {console.log(props)}
-            <span>{props.comment}</span>
+            <form onSubmit={props.addComment}>
+                <input onChange={props.commentChange} type="text" value={props.comment} />
+            </form>
         </div>
     )
 }

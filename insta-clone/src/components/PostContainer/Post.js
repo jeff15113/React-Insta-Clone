@@ -5,7 +5,7 @@ import PostBody from './PostBody'
 
 const Post = (props) => {
     return (
-        <div>
+        <div className='singlepost'>
             <PostHeader username={props.post.username} userimage={props.post.thumbnailUrl} />
             <PostBody postMainImage={props.post.imageUrl} />
             <CommentSection comments={props.post.comments} />

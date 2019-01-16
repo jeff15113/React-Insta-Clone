@@ -4,7 +4,7 @@ import Post from './Post'
 import './PostContainer.css'
 const PostContainer = (props) => {
     return (
-        <div>
+        <div className='postContainer'>
             {props.posts.map(post =>
                 <Post post={post} key={post.timestamp} />
             )}
