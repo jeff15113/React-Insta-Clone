@@ -1,0 +1,16 @@
+.loginpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.loginbox {
+    /* align-self: center; */
+    width: 20%;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+}
